@@ -22,8 +22,8 @@ function tiltPull() {
             var compareTotal = parseInt(obj.data.campaign.totalAmountRaised.value);
             $("tr").each(function (){
                 var incentiveValue = parseInt($(this).children("td").filter(':nth-child(1)').text());
-                //console.log(incentiveValue);
-                //console.log(compareTotal);
+                console.log(obj.data.campaign.goal.currency);
+                console.log(currency);
                 if (incentiveValue <= compareTotal) {
                     $(this).css('color','green');
                 }
