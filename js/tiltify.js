@@ -16,7 +16,7 @@ function tiltPull() {
         .then(data => obj = data)
         .then(() => console.log(obj))
         .then(() => {
-            if (obj.data.campaign.goal.currency = "GBP" ) {var currency = "£"} else if (obj.data.campaign.goal.currency = "USD") {var currency = "$"};
+            if (obj.data.campaign.goal.currency == "GBP" ) {var currency = "£"} else if (obj.data.campaign.goal.currency == "USD") {var currency = "$"};
             urlParams = new URLSearchParams(window.location.search);
             $("#total").html("Current Total<hr class='totalHR'>" + currency + obj.data.campaign.totalAmountRaised.value + "/" + currency + obj.data.campaign.goal.value);
             var compareTotal = parseInt(obj.data.campaign.totalAmountRaised.value);
