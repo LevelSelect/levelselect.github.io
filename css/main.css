@@ -92,7 +92,8 @@ header {
 
 .logols {
   display:flex;
-  background-image: url(../img/logo/logo-Autumn.png);
+  /*background-image: url(../img/logo/logo-Autumn.png);*/
+  background-image: url(../img/logo/logo-Spring.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
