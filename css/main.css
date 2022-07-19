@@ -92,13 +92,11 @@ header {
 
 .logols {
   display:flex;
-  /*background-image: url(../img/logo/logo-Autumn.png);*/
-  background-image: url(../img/logo/logo-Spring.png);
+  background-image: url(../img/logo/LEVEL_SELECTv8_FINAL.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 400px;
-  margin-top:50px;
 }
 #myVideo {
 position: absolute;
@@ -149,42 +147,18 @@ footer {
   border-top: 2px solid rgba(190,128,255,0.8);
   z-index:2;
 }
-.title-info {
+.featured-info {
   position: relative;
-  z-index: 4;
-  left: 50vw;
-  top:0;
+    z-index: 4;
+    left: 50vw;
+    top:0;
   transform: translate(-50%, 0);
   max-width: 900px;
   max-height: 600px;
   min-height: 400px;
   background:none;
   z-index:3;
-  margin-top:40px;
 }
-.featured-info {
-  position: relative;
-  z-index: 4;
-  left: 50vw;
-  top:0;
-  transform: translate(-50%, 0);
-  max-width: 900px;
-  max-height: 400px;
-  min-height: 400px;
-  background:none;
-  z-index:3;
-  margin-top:40px;
-}
-.incentives {
-  max-height:400px;
-  overflow-y:scroll;
-}
-table {
-    border:0px;
-    border-collapse:collapse;
-    width:100%;
-}
-tr:first-child { display:none }
 .brands {
   position:relative;
   bottom:0;
@@ -192,21 +166,9 @@ tr:first-child { display:none }
   height:100px;
   z-index:1;
 }
-td {border-style : hidden; padding:5px 15px 5px 15px}
-tr {
-background-color:rgba(0, 0, 0, 0);
-}
-#totalBox {
-    position: absolute;
-    left: 50vw;
-    top: 150px;
-    z-index: 99;
-    transform: translate(-200%,0px) rotate(15deg);
-    text-align: center;
-}
 .brands img {
   border:none;
- /* -webkit-filter: grayscale(100%);
+ /* -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);*/
   padding:10px;
   height:60px;
